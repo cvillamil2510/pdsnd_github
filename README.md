@@ -8,8 +8,11 @@ Information Bikeshare
 The project shows the statistics of the use of shared bicycles in several cities of the United States
 
 ### Files used
-Include the files used
+chicago.csv
+new_york_city.csv
+washington.csv
+bikeshare_2.py
 
 ### Credits
-It's important to give proper credit. Add links to any repo that inspired you or blogposts you consulted.
+https://github.com/udacity/pdsnd_github
 
