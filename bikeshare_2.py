@@ -27,11 +27,11 @@ def get_necessary_filters():
 
 
     # get user input for month (all, january, february, ... , june)
-    MONTH_DATA=('all','january', 'february', 'march', 'april', 'may', 'june')
+    available_months=('all','january', 'february', 'march', 'april', 'may', 'june')
 
     month = input('Enter a month between January and June or enter all: ').lower()
 
-    while month not in MONTH_DATA:
+    while month not in available_months:
         print ('the month I entered is wrong, please try again.')
         month = input('Enter a month between January and June or enter all: ').lower()
     print('the month you chose is: {}'.format(month))
