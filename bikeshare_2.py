@@ -194,7 +194,7 @@ def user_stats(df):
     print('the types of users are: \n{}' .format(user_types))
 
 
-    # Display counts of gender
+    # Display counts of gender use while True loop for handle data error 
 
     while True:
         try:
