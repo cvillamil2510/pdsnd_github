@@ -6,7 +6,7 @@ CITY_DATA = { 'chicago': 'chicago.csv',
               'new york city': 'new_york_city.csv',
               'washington': 'washington.csv' }
 
-def get_filters():
+def get_necessary_filters():
     """
     Asks user to specify a city, month, and day to analyze.
 
@@ -27,11 +27,11 @@ def get_filters():
 
 
     # get user input for month (all, january, february, ... , june)
-    MONTH_DATA=('all','january', 'february', 'march', 'april', 'may', 'june')
+    available_months=('all','january', 'february', 'march', 'april', 'may', 'june')
 
     month = input('Enter a month between January and June or enter all: ').lower()
 
-    while month not in MONTH_DATA:
+    while month not in available_months:
         print ('the month I entered is wrong, please try again.')
         month = input('Enter a month between January and June or enter all: ').lower()
     print('the month you chose is: {}'.format(month))
@@ -223,7 +223,7 @@ def user_stats(df):
 
 def main():
     while True:
-        city, month, day = get_filters()
+        city, month, day = get_necessary_filters()
         df = load_data(city, month, day)
 
         time_stats(df)
