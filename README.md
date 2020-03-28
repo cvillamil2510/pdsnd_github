@@ -5,7 +5,7 @@
 Information Bikeshare
 
 ### Description
-The project shows the statistics of the use of shared bicycles in several cities of the United States
+The project shows the statistics of the use of shared bicycles in 3 cities of United States (Chicago, New York City and Washington)
 
 ### Files used
 chicago.csv
