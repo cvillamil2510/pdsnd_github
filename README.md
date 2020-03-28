@@ -2,10 +2,10 @@
 2020-03-27
 
 ### Project Title
-Replace the Project Title
+Information Bikeshare
 
 ### Description
-Describe what your project is about and what it does
+The project shows the statistics of the use of shared bicycles in several cities of the United States
 
 ### Files used
 Include the files used
